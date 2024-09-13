@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +37,7 @@ public class CustomerDAO {
     public void createTestData() {
         List<Customer> testCustomers = new ArrayList<>();
         List<Item> items = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 15; i++) {
             Item item1 = new Item("Item1_" + i);
             Item item2 = new Item("Item2_" + i);
             Customer customer = new Customer();

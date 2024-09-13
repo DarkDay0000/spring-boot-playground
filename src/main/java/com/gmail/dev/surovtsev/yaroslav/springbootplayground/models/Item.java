@@ -2,7 +2,7 @@ package com.gmail.dev.surovtsev.yaroslav.springbootplayground.models;
 
 import lombok.*;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -10,7 +10,7 @@ import jakarta.persistence.*;
 @AllArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(name = "items")
+@Table(name = "item")
 public class Item {
 
     @Id

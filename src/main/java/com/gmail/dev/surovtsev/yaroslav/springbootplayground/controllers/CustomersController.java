@@ -4,7 +4,7 @@ import com.gmail.dev.surovtsev.yaroslav.springbootplayground.dao.CustomerDAO;
 import com.gmail.dev.surovtsev.yaroslav.springbootplayground.models.Customer;
 import com.gmail.dev.surovtsev.yaroslav.springbootplayground.models.CustomerType;
 import com.gmail.dev.surovtsev.yaroslav.springbootplayground.services.CustomerService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
